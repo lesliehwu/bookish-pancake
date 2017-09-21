@@ -1,0 +1,6 @@
+<h4>Random Word (attempt #{{count}})</h4>
+<h1>{{word}}</h1>
+<form action='/random_word/'>
+	{% csrf_token %}
+	<input type='submit' value='Generate'>
+</form>

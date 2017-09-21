@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^blogs/',include('apps.blogs.urls')),
     url(r'^surveys/',include('apps.surveys.urls')), 
     url(r'^time_display/', include('apps.time_display.urls')),
+    url(r'^random_word/', include('apps.random_word.urls')),
 ]
